@@ -4,14 +4,26 @@
     <style media="screen">
       body {
         margin:0;
+
+
       }
-      img{
+      img {
         max-width:100%;
         vertical-align: top;
+        /*display: none;*/
+      }
+        img#responsive {
+        display: none;
+      }
+      @media screen and (max-width: 768px) {
+        img#responsive {
+          display: block;
+        }
       }
     </style>
-</head>
+  </head>
   <body>
+    <img src="responsive.jpg" alt="" id="responsive">
     <img src="header.jpg" alt="">
     <img src="conocemas.jpg" alt="">
     <img src="acustica.jpg" alt="">
