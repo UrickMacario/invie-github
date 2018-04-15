@@ -1,4 +1,4 @@
-# invie-github
-Clase Platzi
+# invie
+Las guitarras más locas
 
-La neta esta bien loco aprender de consola, keep going !!
+http://leonidasesteban.github.io/invie-responsive/
